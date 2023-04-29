@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'com.midup'
+version 'beta'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly files("C:\\Users\\Administrator\\Desktop\\Midup\\Libraries\\ProtocolLib.jar")
+    compileOnly files("C:\\Users\\Administrator\\Desktop\\Midup\\Libraries\\BungeeCord.jar")
+    def lombok = 'org.projectlombok:lombok:1.18.22'
+
+    compileOnly lombok
+    annotationProcessor lombok
+
+}
+
+test {
+    useJUnitPlatform()
+}

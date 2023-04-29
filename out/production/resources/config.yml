@@ -1,0 +1,10 @@
+# MidupCore criado por Guilherme & ToddyDeveloper
+
+motd: "                     &6&lMIDUP &f&lNETWORK &7(1.8.*) {newline}          &ewww.midup.com.br"
+maintenance:
+  enable: false
+  motd: "                     &6&lMIDUP &f&lNETWORK &7(1.8.*) {newline}          &cServidor em desenvolvimento!"
+  kick: "&cNosso servidor está em desenvolvimento no momento!"
+
+  members:
+    - "&emidup.com.br"
